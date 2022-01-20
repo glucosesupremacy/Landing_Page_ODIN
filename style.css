@@ -1,0 +1,151 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin:0;
+}
+
+.signup{
+    display:flex;
+    justify-content: space-between;
+    margin:100px;
+    margin-left:200px;
+    margin-right: 200px;
+    color:white;
+    background-color: #3882f6;
+    padding:30px;
+    padding-left: 120px;
+    padding-right: 120px;
+    border-radius: 8px;
+}
+
+.quote{
+    padding:80px;
+    background-color: #e5e7eb;
+    text-align:center;
+}
+
+.quotetext{
+    font-size:35px;
+    padding:15px;
+    color:#494b50;
+}
+.quotebottom{
+    margin-left: 200px;
+    font-weight:bold;
+}
+.blue,
+.footer{
+    color:white;
+    background-color: #1f2937;
+    padding:30px;
+    padding-top:0;
+}    
+
+.imagelist{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    padding:15px;
+    margin-left:70px;
+    margin-right:70px;
+    margin-bottom:50px;
+}    
+
+.item{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.text{
+    max-width:150px;
+    text-align: center;
+    margin-top:10px;
+}
+.intro{
+    display:flex;
+    padding:50px;
+
+}
+.intro-text{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex:1;
+    margin-right:50px;
+}
+.intro img{
+    max-width:500px;
+    max-height:300px;
+    flex:1;
+    border-radius: 20px;
+    border:2px solid black;
+}
+
+.imagelist img{
+    width: 150px;
+    height: 150px;
+    flex-grow: 1 1 auto;
+    border-radius: 15%;
+    border: 2px rgb(15, 92, 163) solid;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    display:flex;
+    align-items: center;
+}
+
+li{
+    padding:5px;
+}
+
+button{
+    padding:5px;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding:40px;
+}
+
+.gray{
+    color:#5e6064;
+}
+
+.gray2{
+    color:#c0c3ca;
+    font-weight:bold;
+}
+
+button{
+    background-color: #3882f6;
+    color:white;
+    border-radius: 5px;
+    padding:13px;
+    font-weight: bold;
+    border:solid white 2px;
+}
+
+.signup button{
+    border:solid white 3px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
